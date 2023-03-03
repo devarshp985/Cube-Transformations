@@ -45,6 +45,7 @@ When the app is running, left-clicking and dragging on the component viewer will
 ## Direct Cube Controls:
 
 ![plot](./readMeimages/DirectControl.PNG)
+If this image doesn't appear for you, please take a look at the "DirectControl.png" image in the reamMeimages folder.
 
 On the right side of the browser window, there will be a control pane labelled **Direct Control**. This pane is further split into 4 sections. The first section is the **Translation**. With this pane, you will be able to set a translation in the x, y, and z axes through typing the desired translation amount in their respective fields. Similarly, in the **Rotation** section, you will be able to set the desired rotation amount about the x, y, and z through their respective fields. After filling out the fields with the desired transformation values, hitting the **Execute** button at the top will animate the transformations being applied to the cube. The last two sections named **Current Pose** and **Current State** give the pose of the cube and the state of the app respectively.
 
@@ -58,6 +59,7 @@ Notes:
 ## Scheduler:
 
 ![plot](./readMeimages/Scheduler.PNG)
+If this image doesn't appear for you, please take a look at the "Scheduler.png" image in the reamMeimages folder.
 
 On the left side of the browser window, there will be a control pane labelled **Scheduler**. This pane will allow you to add transformations in an ordered list, and execute them all in order with the press of a button! It will tell you if a schedule is running through the `Schedule Running?` property. To add transformations, hit the **add** button. This will create and add a new card to the bottom of the list of instructions. Feel free to populate the translation and rotation values for each axis whenever you wish, but it should be before you hit the **Execute** button at the top of the pane to run the set of translations! You can also hit the X button on any card to remove it from the schedule and drag the cards around to rearrange!
 
